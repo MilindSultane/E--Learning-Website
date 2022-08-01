@@ -62,7 +62,7 @@ top: 13px;
 
 
                 <div class="form-outline mb-4">
-                  <input type="text" id="eid" class="form-control form-control-lg" />
+                  <input type="email" id="eid" class="form-control form-control-lg" />
                   <label class="form-label" for="form3Example97">Email ID</label>
                 </div>
 
@@ -107,7 +107,7 @@ top: 13px;
                   </div>
                   <div class="col-md-6 mb-4">
 
-                    <select class="select">
+                    <select class="select" >
                       <option value="1">City</option>
                       <option value="2">Shegaon</option>
                       <option value="3">Akola</option>
@@ -118,8 +118,8 @@ top: 13px;
                 </div>
 
                 <div class="form-outline mb-4">
-                  <input type="text" id="form3Example9" class="form-control form-control-lg" />
-                  <label class="form-label" for="form3Example9">DOB</label>
+                  <input type="text" id="form3Example9" class="form-control form-control-lg" placeholder="_ _ /_ _ /_ _ _ _" />
+                  <label class="form-label" for="form3Example9" >DOB</label>
                 </div>
 
                 <div class="form-outline mb-4">
@@ -135,8 +135,8 @@ top: 13px;
                 
 
                 <div class="d-flex justify-content-end pt-3">
-                  <button type="button" class="btn btn-light btn-lg">Reset all</button>
-                  <button onclick="validate()" type="submit" class="btn btn-warning btn-lg ms-2">Submit form</button>
+                 
+                  <button onclick="return validate()" type="submit" class="btn btn-warning btn-lg ms-2"><a href="Bizgurukul.html">Submit form</a> </button>
                 </div>
 
               </div>
@@ -216,14 +216,9 @@ top: 13px;
 
 	}
 
-	{
-  swal({
-    title: "Good Job!" , 
-    text : "Your have Successfully Enrolled for the Course.." ,
-    icon : "success" 
-  });
+	
 }
-}
+
 </script>
 
 </body>
